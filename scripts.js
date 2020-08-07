@@ -67,7 +67,7 @@ result
         },
         title: {
           display: true,
-          text: `Coronovirus Cases in the World for 90 Days`,
+          text: `Coronavirus Cases in the World for 90 Days`,
         },
       },
     });
