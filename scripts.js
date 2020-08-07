@@ -16,10 +16,6 @@ result
     let total = Object.values(data.cases);
     let deaths = Object.values(data.deaths);
     let recovered = Object.values(data.recovered);
-    console.log(date);
-    console.log(total);
-    console.log(deaths);
-    console.log(recovered);
     var ctx = document.getElementById('myChart').getContext('2d');
     let myChart = new Chart(ctx, {
       type: 'line',
